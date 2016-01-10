@@ -1,0 +1,757 @@
+* { margin:0; padding:0; }
+
+html, body {  
+	font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 0;
+}
+
+.section-full {
+	 height:100vh;
+	 min-height:100vh;
+	 height:100%; /* ie8 */	
+}
+
+.shaded_bg {
+	background-color:#fcfbf9;
+}
+
+.alt-shaded-bg {
+	background-color:#f3f2e8;     
+}
+
+h2 {    
+	font-size: 34px;
+    font-weight: 600;
+	color: #000;    
+    color: rgba(0, 0, 0, 0.8);
+    background-color: transparent;
+    line-height: 1.3em;
+    vertical-align: baseline;
+    letter-spacing: -0.716667px;
+    word-spacing: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none; 
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.7em; 
+    color: #777;
+    margin: 0 auto 30px;
+}
+
+h4 {
+    text-align: center; 
+    margin: 15px auto; 
+    font-size: 20px; 
+    font-weight: 500;
+}
+
+p { 
+    font-family: 'Droid Sans', sans-serif; 
+    font-size: 20px;
+    line-height: 1.5em (33px);
+    vertical-align:baseline;
+    letter-spacing: 0.166667px;
+    word-spacing: 0px;
+    color: #000;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: transparent;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none;     
+}
+
+.thumbnail {
+    background-color: transparent;
+    border: 0px; /* border: 1px solid #777; To be used for skills & thesis images */
+    margin-bottom:0;
+}
+
+.thumbnail .caption {
+    padding:4px; 
+    margin-bottom: 0px;
+}
+
+.scrollup {
+    width: 48px;
+    height: 48px;
+    opacity: 0.3;
+    position: fixed;
+    bottom: 20px;
+    right: 6%;
+    display: none;
+    text-indent: -9999px;
+    background: url('../img/arrow-up.png') no-repeat;
+    border-radius:12px;
+ 	/* border-top-right-radius:30px; */   
+}
+
+a:hover, a:active, a:focus {
+  outline: 0;
+ }
+
+/******************* Nav Bar *********************/
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+/*	margin-bottom: 5em; */         
+}
+
+.navHeaderCollapse.collapse {
+    border-color: #add379;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 1.6em;
+    color: #add379;
+	-webkit-text-stroke: 0.2px black;
+    text-shadow: black 0em 0em 0.3em !important;
+    font-weight: 900;    
+    margin-left: 5%;  
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #d39f79;
+    -webkit-text-stroke: 0.4px black;    
+}
+
+.navbar-default .navbar-nav > .dropdown {
+    padding-bottom: 0;
+}
+
+.navbar-default .navbar-nav > .dropdown > .dropdown-menu {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    min-width: 0px !important;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .dropdown > .dropdown-menu li {
+    margin: 20px auto !important;
+}
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color:transparent;    
+}
+
+.nav.navbar-nav.navbar-right {
+    padding-right: 4px;
+    margin-right: 0;
+}
+
+.nav.navbar-nav.navbar-right li a {              
+    background-color: transparent;
+    font-size: 1.1em;
+    font-weight: 600; 
+    color: #add379 !important;
+	-webkit-text-stroke: 0.2px black;
+    text-shadow: black 0em 0em 0.3em !important;
+}
+
+.nav.navbar-nav.navbar-right li a:hover,
+.nav.navbar-nav.navbar-right li a:focus {
+    color: #d39f79 !important;
+    -webkit-text-stroke: 0.4px black; 
+}
+
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+    color: palegoldenrod !important;
+}
+
+.navbar .nav .divider {
+    background-color: #add379;
+    width: 80%;
+    margin: 10px auto;    
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #add379;
+}
+
+
+/***************** Home Section ******************/
+
+#home {
+    background: url(../img/keyboard-bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;    
+}
+
+#home .container {        
+	/* min-height: 80vh;  
+    /* Internet Explorer 10 
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+
+    /* Firefox 
+    display:-mz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari, Opera, and Chrome  
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C 
+    display:box;
+    box-pack:center;
+    box-align:center;   */
+} 
+
+#home .jumbotron { 
+    background: url(../img/faded-bg2.png) no-repeat;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;     
+    padding: 1% 2%; 
+    border-radius: 10px;
+	margin-top: 14%; 
+	bottom: 6em;
+}
+
+.hello-greeting {
+    font-size:1.2em; 
+    font-weight:600;
+    color:#add379;
+}
+
+.name-intro {
+    font-size:1em; 
+    font-weight:normal;
+    color:#add379;
+}
+
+#home p {   
+    color:#fff;
+    -webkit-text-stroke: 0.2px black;
+    text-shadow: black 0em 0em 0.9em !important;
+    padding-top: 1%;
+}
+
+/**************** Education Section ******************/
+
+#education .container {
+    padding-top: 5%;
+}
+
+#education .jumbotron {
+    background-color:transparent;
+	padding:20px;
+	bottom: 2em;
+}
+
+#education .jumbotron p {
+	font-size: 16px;
+	line-height: 1.45em;
+	vertical-align: baseline;
+	letter-spacing: normal;
+	word-spacing: 0px;
+	text-indent: 10px;
+	font-weight: normal;
+	margin-bottom: 10px;	
+}
+
+#education .jumbotron p img {
+    margin-bottom: 8px;
+}
+
+#education .img-thumbnail {
+  padding: 0px;  
+  background-color: #fcfbf9;
+  border: 0px;
+}
+
+.custom-divider {
+    height: 2px;
+    width:70%;
+    display:block; /* for use on default inline elements like span */
+    margin: 30px auto;  
+    overflow: hidden;
+    background-color: #add379;
+}
+
+/******** Technique for v-align logos found here http://stackoverflow.com/questions/18516317/vertically-align-an-image-inside-a-div-with-responsive-height *******/
+.img-paragraph {
+    height: 118px;
+    text-indent: 0px;
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari, Opera, and Chrome */ 
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;    
+}
+
+/**************** Skills Section *****************/
+
+#skills {
+    /* background-image: url('../images/keyboard1-bg.jpg'); */
+    background: url(../img/keyboard1-bg.png) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#skills .container {
+    /* Internet Explorer 10 
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+
+    /* Firefox 
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari, Opera, and Chrome 
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C 
+    display:box;
+    box-pack:center;
+    box-align:center;       */
+}
+
+#skills p {
+    font-size: 17px;
+    line-height: 1.43;
+    color:#add379;
+    -webkit-text-stroke: 0.2px black;
+    text-shadow: black 0em 0em 0.9em !important; 
+    font-weight: 200;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#skills h3, #skills h4 {
+    color: #ECF0F1;
+}
+
+.caption .fa {
+    font-size: 5.0em;
+    color:#add379;
+}
+
+.caption div { 
+    text-align: center;    
+}
+
+.content {
+    background: url(../img/faded-bg2.png) no-repeat;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+    padding: 2% 1.5% 1%;
+    border-radius: 10px;
+	margin-top: 15%; 
+	bottom: 6em;      
+}
+
+#skills .thumbnail {
+    padding: 3px;
+}
+
+/*************** Projects Section *****************/
+
+#projects-group .container, #projects-thesis .container {
+    padding-top: 5%;
+    padding-bottom:5%; 
+}
+
+#projects-group h2, #projects-thesis h2 {
+    margin-bottom: 4%;
+}
+
+#projects-group p, #projects-thesis p { 
+    font-size: 16px;
+    line-height: 175%; /* 1.5em (33px); */
+    vertical-align:baseline;
+    letter-spacing: 0.166667px;
+    word-spacing: 0px;
+    color: #000;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: transparent;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none;
+    text-indent: 30px;
+    padding: 1.4% 3% !important;
+}
+
+#projects-thesis .thumbnail .caption {
+    text-indent: 0px;
+    font-size: 0.8em;     
+}
+
+.image-paragraph {
+    padding-left:23px;
+}
+
+/*************** Contact Section *****************/
+
+.contact_subsection_top {
+	height:85vh;
+	min-height:85vh;
+	height:85%; /* ie8 */ 
+    padding-top: 5%;
+}
+
+.contact_subsection_bottom {
+	height:15vh; 
+	min-height:15vh;
+}
+
+#contact .jumbotron {
+    background-color: #222;    
+    padding: 5% 10%;
+    margin-bottom: 20px;
+}
+
+#contact h2, #contact p {
+    color: #add379;
+    text-indent: 0px;
+}
+
+/******************** Form **********************/
+
+.form-control {
+    color: #555555;
+    background-color: #fcfbf9;    
+    border: 1px solid #add379;
+
+}
+
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.form-control::-moz-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #999999;
+}
+.form-control::-webkit-input-placeholder {
+  color: #999999;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+  opacity: 1;
+}
+
+/******************* Footer **********************/
+
+.copyright-text {	
+	color:#add379;
+}
+
+.social a {             /* Could use the .fa class here */
+    margin: 15px 0.4em;
+    font-size: 1.4em; 
+    color:#add379; 
+}
+
+.social a:hover {  
+    color:#444;
+}
+
+footer {
+    background-color: #222;
+	border-bottom-color: #222;                
+}
+
+.footer-info {     
+    padding: 50px 0; 
+}
+
+/******************* Buttons *********************/
+
+.btn-custom {   
+    color:#add379 !important; 
+}
+
+ .btn-custom:hover {
+    background-color:#111 !important;           
+} 
+
+.btn-custom:active {
+    background-color:#000 !important;    
+    border-color:#fff !important;    
+    outline:0 !important;
+}
+
+#home .btn-custom {
+    background-color: transparent;
+    border-color:#add379;
+    border-radius: 13px;
+    margin-top: 15px;    
+}
+
+ #home .btn-custom:hover {
+    background-color: #add379 !important;
+    color: #fff !important;                   
+} 
+
+#home .btn-custom:active {
+    background-color: #add379 !important;    
+    border-color:transparent !important;
+    color: #fff !important; 
+    outline:0 !important;
+}
+
+#projects-group .btn-custom, #projects-thesis .btn-custom, #contact .btn-custom {
+    background-color:#333;
+    border-radius: 8px;
+    margin: 5px 20px;
+	width: 95px;
+}
+
+#contact .btn {
+    margin: auto;
+}
+
+.btn:focus {outline:0;}
+
+#imageRotator {
+    height:320px;
+	width:192px;
+} 
+	
+#imageRotator div {
+	position:absolute;
+	z-index: 0;
+}
+#imageRotator div.previous {
+	z-index: 1;
+}
+	
+#imageRotator div.current {
+    z-index: 2;
+}
+
+/****************** Medium **********************/
+/* Medium Devices, .visible-md-* */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.image-app {
+    margin-top: 40px;  
+}
+    
+#education .container {
+    padding-top: 4%;     
+} 
+    
+#skills .container {
+    padding-top: 16%;    
+}
+    
+}/* End (max-width: 1199px) */
+
+/****************** Tablets **********************/
+/* Small Devices, .visible-sm-* */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.image-app {
+    margin-top: 15px;  
+}
+    
+#education .container {
+    padding-top: 3%;
+    padding-bottom: 2%;
+} 
+
+#education .jumbotron {
+	bottom: auto;
+}
+    
+#skills .container {
+    padding-top: 3%;
+    padding-bottom:3%; 
+}
+
+.content {
+	margin-top: auto; 
+	bottom: auto;  
+}
+    
+}/* End @media (max-width: 991px)*/
+
+
+/****************** Mobile ***********************/
+/* Extra Small Devices, .visible-xs */
+@media (max-width: 767px) {
+/* mobile navigation bar */
+    
+.navbar-default { 					  
+	position:static;
+    width: 100%;
+    margin: 0 auto;
+	text-align:center;
+	color: #add379; 
+	background-color: #222;                	    
+	margin-bottom: 0%;
+}
+    
+.navbar-default .navbar-brand {
+    color: ##add379;
+    margin-left: 2%; 
+}
+    
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    text-align:center;
+    color: #777;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ddd;
+}
+    
+.nav.navbar-nav.navbar-right li a {           
+    color: #add379;
+}
+
+.navbar-default .navbar-toggle {
+     border-color: #add379;
+}
+    
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #add379;
+    border-color:#add379;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #555;
+}
+
+.container-fluid{ 
+    padding: 0;
+}
+    
+h3 {
+    font-size: 1.6em; 
+    margin:7% auto;
+}
+    
+.img-paragraph {
+    height:auto;
+    width: 100%;
+    margin: auto 0;
+}
+
+#home .container {
+    padding-top: 20px;     
+}
+
+#home .jumbotron {
+    padding-top: 10% !important;
+    padding-bottom: 25px !important;
+	margin-top: auto;
+	bottom: auto;   
+}
+
+.hello-greeting {
+    font-size:1.6em; 
+}
+
+.name-intro {
+    font-size:1.3em;
+}
+
+#home p {
+    font-size: 20px;
+    margin: 30px 4px;
+    line-height: 1.43em;           
+}
+    
+#home .btn-custom {
+    margin-top: 15px;
+}
+    
+#education .container {
+    padding-top: 0;     
+} 
+
+#education .jumbotron {
+	bottom: auto;
+}
+    
+#projects-group .container, #projects-thesis .container {   
+    padding-bottom:16%; 
+}
+    
+#skills .container {
+    padding-top: 5%;
+    padding-bottom:5%; 
+}
+
+.content {
+	margin-top: auto; 
+	bottom: auto;  
+}
+    
+.footer-info {   
+    padding: 8px 0 5px;
+}
+    
+.social {   
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.image-paragraph {
+    padding-left:15px;
+}  
+}/* End @media (max-width: 767px)*/
+

@@ -1,0 +1,51 @@
+<!-- Greeting/Jumbotron ------------------------------------------------------> 
+<p class="intro-greeting">I am a recent Honours Graduate in Computer Science with a Passion for Web and Software Development</p>
+
+<!-- Education --------------------------------------------------------------->
+<p class="comp-maintenance-edu">From 2008 to 2010 while attending Colaiste Ide in Finglas, North Dublin, and in association with FIT (Fastrack to I.T.), I acquired a FETAC Level 5 certification in Computer and Network Maintenance.</p>
+
+<p class="comp-maintenance-edu">This involved modules such as Computer Apps, I.T. Skills, ECDL, Hardware and Network Essentials, Customer Service, System Maintenance and Web Development.</p>
+
+<p id="comptia-aplus-edu">In 2008 I acquired a CompTIA A+ certified technician award which I studied for at Colaiste Ide in Finglas, North Dublin.</p>
+
+<p id="comptia-netplus-edu">Following on from this, and while also at Colaiste Ide, I then achieved a CompTIA Network+ certification in 2009.</p>
+
+<p class="comp-science-edu">In 2010 I began studying Computer Science at the Institute of Technology Blanchardstown (ITB). This culminated in 2014 with the completion of a Bachelor of Science in Computing (Honours) Degree.</p>
+
+<p class="comp-science-edu">A 2:1 grade was achieved and some of the areas of study undertaken included Text and Data Mining, Web and Software Development, Research and Project Skills, Databases, Networking and Operating Systems.</p>
+
+<!-- Skills ------------------------------------------------------------------>
+<p id="coding-skills">Confident and competent in the development and use of IT Software having gained invaluable experience working with technologies and frameworks such as Java, PHP, SQL, JavaScript, HTML5, CSS, Less,07/01/2016 22:05:05 UML, jQuery and Bootstrap.</p>
+
+<p id="tools-skills">Capable of working on a variety of platforms such as  Windows, Linux and VMware virtualisation. Experience in the use of IDEs and Text editors such as Eclipse, WebStorm, MS Expression, Brackets and Sublime Text.</p>
+
+<p id="technical-skills">Proficient with computer hardware possessing experience with Cisco and CompTIA standards. With a passionate interest in I.T. I am a PC and hardware enthusiast as I consider the building of, upgrading and repairing of systems to be one of my hobbies.</p>
+
+<!-- Group Thesis ------------------------------------------------------------>
+<p class="group-content">This group project involved the development of a web application which provided weekly forecasts on upcoming Barclays Premier League football fixtures. These predictions would estimate the outcome of each game by indicating the probability of a win, lose or draw for each of the two teams involved.</p>
+
+<p class="group-content">Each week, updated results were stored in a MySQL database and from this data, forecasts were derived for upcoming games by means of a formula known as the <a href="http://en.wikipedia.org/wiki/Elo rating_system">Elo rating system</a>. Originally designed to calculate the ranking of chess players and best known for its use in the movie <i>The Social Network</i> where it was used by Mark Zuckerberg to implement Facemash to rank coeds by their attractiveness, a modified version named the <a href="http://en.wikipedia.org/wiki/World_Football_Elo_Ratings">World Football Elo rating system</a> was implemented. For the purpose of rating football teams in this project this formula was amended to include various variables and weights.</p>
+
+<p class="group-content">Technologies and techniques utilised in this project were Java, PHP, HTML5, CSS, SQL, JavaScript, jQuery, the DOM and UML. A WordPress blog was also created for the purpose of keeping the projects supervisor informed about any and all relevant updates.</p>
+
+<p class="group-hidden-content">The algorithm for the Elo formula was first implemented in Java code as a prototype standalone program before it was then recoded in PHP for better incorporation into the web app. An Elo win expectancy was produced and this was also used as a factor to calculate the web app’s own Premier Games Predictor (PGP) win expectancy. The PGP formula took into account a value for how each team had faired in its last ten games against its currently proposed opposition. Previous games involving the current two teams where the current home team had previously also been the home team were referenced.</p>
+
+<p class="group-hidden-content">After each weekly database update users would be able to select a game of their choice from an upcoming fixtures list. The database would then be queried for all of the values required for the Elo formula so as to calculate the Elo win expectancies and PGP win expectancies for each of the two teams. These were displayed as percentage values indicating the probability of a home or an away win occurring along with each teams win ratio playing against this current opposition.</p>
+
+<!-- Thesis ------------------------------------------------------------------>
+<p id="thesis-content-para1">As part of this projects exploration into web application interactivity it featured the creation of a simple math-based game. This cross-browser, interactive web app was developed for both desktop and mobile platforms with HTML5, CSS3 and JavaScript as the primary technologies. Titled MathMagic Basketball and aimed at children, players were quizzed on equations in a user-friendly interface. The game had three levels of skills: easy, normal and hard and as a player ascended up these levels, the degree of difficulty also rose with the equations becoming slightly more advanced.</p>
+
+<p id="thesis-content-para2">An HTML5 app was chosen to showcase dynamism and interactivity as it was still relatively in its infancy and it was estimated that a few problems would arise with issues such as those surrounding new APIs like Drag and Drop and Local storage. Such issues could however be overcome with the implementation of polyfills, browser fallbacks or shims to aid functionality in unsupportive browsers. How much this was the case and whether or not polyfills were needed for a fully functional web app helped identify the current state of interactivity with HTML5.</p>
+
+<p id="thesis-content-para3">The project's exploration also aimed to test the relevant technologies and associated APIs to discover if they truly could create applications that could provide a valid alternative to native mobile apps. To research this a HTML5 mobile app and a native mobile app for Android were developed and compared. The native mobile app was developed with the aid of PhoneGap. The PhoneGap framework wrapped the HTML5, CSS3 and JavaScript code into a native app even providing an apk installation file. Displayed are some screen images of both the native and web app implementations of MathMagic Basketball.</p>
+
+<p id="thesis-content-para4">This project's development incorporated technologies such as HTML5, CSS3, JavaScript, JSON, jQuery, PhoneGap and the Document Object Model.</p>
+
+<p class="thesis-hidden-content">The functionality of the game was such that on its beginning and after a player had selected a level of difficulty, a countdown clock would appear indicating a time of 60 seconds for the completion of a set of random equations as they appeared on screen. Players were then required to drag an answer, which was in the form of a basketball, into a basketball net. If a correct answer or ball was dropped into the net then points were awarded and the game continued otherwise the game would wait while the clock ticked for a correct answer. A list of the last ten highest scores along with each player’s name and position were displayed on a scoreboard when the game was over. This data was stored locally within a browser’s web storage.</p>
+
+<div class="thumbnail thesis-hidden-content">
+	<img src="img/desktop-app.png" alt="Web app" class ="img-responsive img-rounded" style="margin-bottom: -5px;">
+	<p class="caption text-center">The desktop HTML5 Web App</p>
+</div>
+
+<p class="thesis-hidden-content">Polyfills that were tried and tested in this project were Hammer.js, Touch Punch and Fastclick. Hammer.js incorporated drag and drop and other multi-touch gestures into the mobile HTML5 apps functionality. This drag and drop functionality that was required for the game was sluggish when applied. Touch Punch, a jQuery hack which recognises touch events on mobile devices and maps them to their equivalent mouse events had a much smoother implementation than that of Hammer.js even with the addition of less complex code. Developed by FT Labs of the Financial Times, FastClick is a JavaScript click handler library which has the sole aim of improving the responsiveness of web apps within mobile browsers. On this platform click events may appear to take too long to register. This is because click events within mobile web apps take approximately a 300 millisecond time delay from when a button is tapped to when the event is handled. This default delay occurs so as to wait and see if a user is attempting to double tap. A number of polyfills are available to combat this but FastClick was implemented with ease and worked perfectly in this project.</p>
